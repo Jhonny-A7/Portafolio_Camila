@@ -1,5 +1,9 @@
 @import url(./button.css);
 @import url(./header.css);
+@import url(./perfil.css);
+@import url(./hero.css);
+@import url(./wrapper.css);
+@import url(./menu.css);
 
 :root {
     --fontBase:'Poppins', san-serif;
@@ -10,7 +14,7 @@
     --headline5: bold 24px/38px var(--fontBase);
     --body1: 16px/24px var(--fontBase);
     --body2: 14px/22px var(--fontBase);
-    --button: bold 14px/22px var(--fontBase);
+    --fontButton: bold 14px/22px var(--fontBase);
     --caption: 12px/19px var(--fontBase);
     --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0)100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
     --purple: #310A90;

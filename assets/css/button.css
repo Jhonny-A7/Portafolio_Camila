@@ -1,5 +1,5 @@
 .button {
-    font: var(--button);
+    font: var(--fontButton);
     padding-inline-start: 24px;
     padding-inline-end: 24px;
     padding-block-start: 13px;
@@ -7,6 +7,8 @@
     border: none;
     border-radius: 4px;
     text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
 }
 .btn-primary {
     background: var(--purple);

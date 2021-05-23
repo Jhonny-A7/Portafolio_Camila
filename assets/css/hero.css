@@ -6,6 +6,8 @@
 }
 .hero-img img {
     border-radius: 10px;
+    max-inline-size: 100%;
+    block-size: auto;
 }
 .hero h1 {
     font: var(--headline3);
@@ -19,9 +21,6 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-}
-.hero-social {
-    padding-block-end: 24px;
 }
 
 @media screen and (min-width: 768px) {
